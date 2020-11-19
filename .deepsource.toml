@@ -1,14 +1,8 @@
 version = 1
 
-test_patterns = [
-    "*/test/**",
-    "**/__tests/**"
-]
+test_patterns = ["**/__tests__/**"]
 
-exclude_patterns = [
-    "dist/**",
-    "build/**"
-]
+exclude_patterns = ["*/examples/**"]
 
 [[analyzers]]
 name = "javascript"
@@ -16,9 +10,9 @@ enabled = true
 
   [analyzers.meta]
   environment = [
-    "browser",
+    "nodejs",
     "jest"
   ]
   plugins = ["react"]
-  style_guide = "airbnb"
   dialect = "typescript"
+  style_guide = "standard"
