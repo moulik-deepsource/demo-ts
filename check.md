@@ -1,8 +1,7 @@
 ## Am I being formatted
-DOes ity 
 
+DOes ity
 
 Really
-
 
 asda####
